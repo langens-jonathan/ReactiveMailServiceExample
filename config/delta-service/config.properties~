@@ -1,0 +1,5 @@
+# made by Langens Jonathan
+queryURL=http://localhost:8890/sparql
+updateURL=http://localhost:8890/sparql
+sendUpdateInBody=true
+calculateEffectives=true

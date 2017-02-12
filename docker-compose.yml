@@ -24,6 +24,15 @@ services:
   resource:
     image: semtech/mu-cl-resources:1.12.1
     links:
-      - db:database
+      - delta:database
     volumes:
       - ./config/resources:/config
+  delta:
+    image: semtech/mu-delta-service:beta-0.7
+    links:
+      - db:db
+    volumes:
+      - ./config/delta-service:/config
+    environment:
+      CONFIGFILE: "/config/config.properties"
+      SUBSCRIBERSFILE: "/config/subscribers.json"
