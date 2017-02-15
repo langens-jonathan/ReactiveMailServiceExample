@@ -36,3 +36,9 @@ services:
     environment:
       CONFIGFILE: "/config/config.properties"
       SUBSCRIBERSFILE: "/config/subscribers.json"
+  mailservice:
+     build: ./mail-service
+     links:
+       - db:database
+     ports:
+       - "8888:80"
