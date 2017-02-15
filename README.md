@@ -211,7 +211,7 @@ def process_mailbox(mailbox):
 ```
 As you can see the mail_helpers contain 2 functions, 1 to iterate over all emails in a mailbox and the other to save a single email to the triple store. Easy peasy!
 
-Next we create a web.py file for more information on how the python template can be used you can visit: https://github.com/mu-semtech/mu-python-template/blob/master/README.md. I created the following method to process all mails:
+Next we create a web.py file for more information on how the python template can be used you can visit: https://github.com/mu-semtech/mu-python-template. I created the following method to process all mails:
 ```
 @app.route("/fetchMails")
 def fetchMailMethod():
