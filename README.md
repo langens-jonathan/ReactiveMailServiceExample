@@ -157,9 +157,6 @@ If we do drc rm and then drc up again then the delta service will be booting and
 
 ## Writing your first micro-service
 
-https://www.tutorialspoint.com/python/python_sending_email.htm
-https://docs.python.org/2/library/email.html
-
 ### Building the mail handling microservice (mail-service)
 
 #### Objectives
