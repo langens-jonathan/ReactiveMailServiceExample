@@ -4,7 +4,7 @@
 
 My goal for this short coding session is to have a mail handling service that will allow me to list and maninpulate  mails through a JSON API REST back end. And have that service pick up when I write a mail to the database and send it automatically. You can see the result of this project at:
 ```
-https://github.com/langens-jonathan/MailBox
+https://github.com/langens-jonathan/ReactiveMailServiceExample
 ```
 
 ### First using mu.semte.ch to get a head start
