@@ -28,9 +28,10 @@ services:
     volumes:
       - ./config/resources:/config
   delta:
-    image: semtech/mu-delta-service:beta-0.7
+    image: semtech/mu-delta-service:beta-0.8
     links:
       - db:db
+      - mailservice:mailservice
     volumes:
       - ./config/delta-service:/config
     environment:
