@@ -1,6 +1,7 @@
 {
   "potentials":[
   ],
-  "effectives":[
+    "effectives":[
+	"http://mailservice/process_delta"
   ]
 }
