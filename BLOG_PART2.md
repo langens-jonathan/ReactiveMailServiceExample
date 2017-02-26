@@ -276,5 +276,5 @@ To test this you can send a POST request similar to this one to your local mu.se
  "type":"mails"
  }}
  ```
- If all went well then the person whose email address you filled in in the from field will have gotten a mail from you.
+ If all went well then the person whose email address you filled in in the to field will have gotten a mail from you.
  
